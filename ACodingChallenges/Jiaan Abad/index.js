@@ -170,10 +170,10 @@ function numberToWord(number) {
         if (tenPlus)
             word += ones_array[tenPlus];
     }
-    console.log(word) //prints the number to word
+    return word; //prints the number to word
 }
 console.log("-------ACTIVITY 1 -------")
-console.log(displayNumbers());
+displayNumbers();
 console.log("-------ACTIVITY 2 -------")
 console.log(displayAverage());
 console.log("-------ACTIVITY 3 -------")
