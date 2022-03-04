@@ -1,0 +1,55 @@
+header {
+    background-color: lightblue;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    padding: 30px;
+    text-decoration: underline;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+    
+}
+
+nav  {
+    background-color: pink;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+   
+    
+
+}
+
+section.firstSection {
+    background-color: lightsalmon;
+    text-align: center;
+    align-items: center;
+}
+
+img{
+    width: 40vw;
+    height: 40vh;
+}
+
+section.secondSection {
+    background-color: lightgreen;
+    text-align: center;
+}
+
+aside {
+    background-color: lightgoldenrodyellow;
+    float: left;
+    overflow-y: scroll;
+    height: 200px;
+    overflow-x: hidden;
+}
+
+.nav {
+    display: inline;
+    margin: 20px;
+}
+
+body {
+    background-color: black;
+   
+}
