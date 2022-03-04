@@ -6,7 +6,9 @@ import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 
 //router dom
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+
+
 
 function App() {
   return (
@@ -19,9 +21,10 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<NavBar />}>
-              <Route path="about-me" element={<Home />} />
-              <Route path="paintings" element={<Page2 />} />
-              <Route path="more-more" element={<Page3 />} />
+            <Route path="/" element={<Navigate to="/home" />} />
+            <Route path="/home" element={<Home />} />
+            <Route path="paintings" element={<Page2 />} />
+            <Route path="more-more" element={<Page3 />} />
           </Route>
         </Routes>
       </BrowserRouter>
