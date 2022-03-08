@@ -1,0 +1,10 @@
+.external {
+    width: 100%;
+    height: 25px;
+    background-color: pink;
+}
+#external {
+    width: 100%;
+    height: 25px;
+    background-color: lightgreen;
+}
