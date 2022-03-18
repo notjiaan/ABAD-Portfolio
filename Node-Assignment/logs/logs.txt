@@ -1,21 +1,7 @@
-localhost:5000/
-localhost:5000/
-localhost:5000/
-localhost:5000/about
-localhost:5000/about
-localhost:5000/history
-localhost:5000/history
-localhost:5000/about
-localhost:5000/
-localhost:5000/history
-localhost:5000/hello
-localhost:5000/history
-localhost:5000/history
-localhost:5000/history
-localhost:5000/history
-localhost:5000/history
-localhost:5000/history
-localhost:5000/history
-localhost:5000/history
-localhost:5000/history
-localhost:3000/history
+
+The user visited: /history
+<br />The user visited: /history
+<br />The user visited: /history
+<br />The user visited: /history
+<br />The user visited: /history
+<br />
