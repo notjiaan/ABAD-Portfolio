@@ -1,0 +1,4 @@
+localhost:5000/home
+localhost:5000/favicon.ico
+localhost:5000/secret
+localhost:5000/secret
