@@ -1,0 +1,13 @@
+.skills-container {
+  background-color: #101010;
+ 
+}
+
+.header-container h2 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+.header-container span {
+  color: #ed2939;
+}

@@ -40,10 +40,9 @@ aside {
     background-color: lightgoldenrodyellow;
     float: left;
     overflow-y: scroll;
-    height: 200px;
-    overflow-x: hidden;
-    position:sticky;
-    top:0;
+    height: 300px;
+    position:fixed;
+    /* top:0; */
 }
 
 .nav {

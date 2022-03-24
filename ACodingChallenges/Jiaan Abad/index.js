@@ -175,11 +175,11 @@ function numberToWord(number) {
 console.log("-------ACTIVITY 1 -------")
 displayNumbers();
 console.log("-------ACTIVITY 2 -------")
-console.log(displayAverage());
+displayAverage();
 console.log("-------ACTIVITY 3 -------")
-console.log(longestWordInString("What is the average airspeed velocity of an unladen swallow"));
-console.log(longestWordInString("What if we try a super-long word such as otorhinolaryngology"));
+longestWordInString("What is the average airspeed velocity of an unladen swallow");
+longestWordInString("What if we try a super-long word such as otorhinolaryngology");
 console.log("-------ACTIVITY 4 -------")
 console.log(palindrome("Able was I ere I saw Elba"));
 console.log("-------ACTIVITY 5 -------")
-console.log(numberToWord(9999999));
+numberToWord(9999999);

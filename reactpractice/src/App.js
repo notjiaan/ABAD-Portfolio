@@ -1,24 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+import WaysOfStyling from './components/WaysOfStyling';
+import ComponentTutorial from './components/ComponentTutorial';
+import Content1 from './pages/Content1';
+import NavBar from './components/NavBar';
+import MaterialUI from './components/MaterialUI';
+//router dom
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
+  //javascript code
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {
+        //jsx
+      }
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<NavBar />}>
+            <Route path="component-tutorial" element={<ComponentTutorial />} />
+            <Route path="ways-of-styling" element={<WaysOfStyling />} />
+            <Route path="content1" element={<Content1 />} />
+            <Route path="material-ui" element={<MaterialUI />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
 

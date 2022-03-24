@@ -1,74 +1,80 @@
 /* Navbar css */
 
-nav{
-    background: #00A5E0 ;
+nav {
+  background: #00a5e0;
 }
-nav .navbar-nav li{
-    color: white !important;
-    margin-left : 1em;
-    margin-right : 1em;
-
+nav .navbar-nav li {
+  color: white !important;
+  margin-left: 1em;
+  margin-right: 1em;
 }
-
 
 /* Home css */
 
-.home-container{
-    background:	#78C5DC;
+.home-container {
+  background: #78c5dc;
 }
-.home-container h1{
-    font-family: 'Copperplate', fantasy;
+.home-container h1 {
+  font-family: "Copperplate", fantasy;
 }
-.home-container h3{
-    font-family: "Times New Roman", Times, serif;
-    font-style: italic;
+.home-container h3 {
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
 }
 
-.hr-style{
-    border-top: 4px double black;
+.hr-style {
+  border-top: 4px double black;
 }
 
 /* Saturday */
-.saturday-column{
-    padding: 10px 0px;
+.saturday-column {
+  padding: 10px 0px;
 }
-.saturday-card{
-    width: 18rem;
-    height: 100%;
-    /* border: 15px solid black; */
-    background:	#78C5DC;
+.saturday-card {
+  width: 18rem;
+  height: 100%;
+  /* border: 15px solid black; */
+  background: #78c5dc;
 }
-.saturday-img{
-    width: 100%;
-    height: 25vh;
+.saturday-img {
+  width: 100%;
+  height: 25vh;
 }
-.saturday-title{
-    text-align: center;
-    font-family: 'Helvetica', 'Arial', sans-serif;
-    font-weight: bold;
+.saturday-title {
+  text-align: center;
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-weight: bold;
 }
-.saturday-info{
-    text-align: justify !important;
-    font-family: Sans-Serif;
+.saturday-info {
+  text-align: justify !important;
+  font-family: Sans-Serif;
 }
-.saturday-card:hover{
-    transform: scale(1.1);
-    background: white;
-
+.saturday-card:hover {
+  transform: scale(1.1);
+  background: white;
 }
 
 @media (max-width: 320px) {
-    .saturday-card{
-        width: 13rem;
-    }
+  .saturday-card {
+    width: 13rem;
+  }
 }
 
 /* Sunday */
-.sunday-img{
-    height: 70vh;
+.item-filter {
+  background: #2eaef1;
 }
+.sunday-img {
+  height: 70vh;
+  filter: brightness(225%);
+  opacity: 0.2;
+}
+.sunday-img:hover {
+    opacity: 1;
+    filter: none;
+  }
 
 /* Footer css */
-.page-footer{
-    background: #00A5E0;
+.page-footer {
+  background: #00a5e0;
 }
