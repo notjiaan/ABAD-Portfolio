@@ -8,7 +8,7 @@ const Homepage = () => {
                 <div className="jumbotron container home-text-container">
                     <h4 className="py-3">Hi, I am </h4>
                     <h1 className="display-4  jiaan-abad-home ">JIAAN PATRICK ABAD </h1>
-                    <h4 className='py-3'>Front-End Developer and Designer</h4>
+                    <h4 className='py-3 job-position'>Front-End Developer and Designer</h4>
                     <h3><a className="homepage-arrow" href="#about">&#8595;</a></h3>
                 </div>
             </div>

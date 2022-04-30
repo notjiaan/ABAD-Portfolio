@@ -1,31 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&family=Poppins:wght@100;600&family=Raleway&family=Secular+One&display=swap");
+
 .about-container {
-  background-color: black;
+  background-color: #001325;
 }
 
 .motto-container {
-  font-family: "Poppins", sans-serif;
   color: white;
   padding: 2%;
 }
 .motto-container h4 {
-  color: #ED2939 !important;
+  font-family: "Montserrat", sans-serif;
+  color: #009CF9 !important;
   font-style: italic;
+  font-weight: bold;
   text-shadow: -1px 0 #202020, 0 1px #202020, 1px 0 #202020, 0 -1px #202020;
   letter-spacing: 2px;
   padding: 1% 0;
 }
+.motto-container p {
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 1px;
+}
 .about-me-info-container {
-  font-family: "Poppins", sans-serif;
-  color: white;
+  color: #F1F1E6;
 }
 .about-me-info-container h2{
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
 .about-me-paragraph {
   text-align: justify !important;
-}
-.about-me-info-container span {
-  color: #ED2939;
+  font-family: "Raleway", sans-serif;
+  font-weight: 100;
 }
 .my-photo {
   border-radius: 10px;
